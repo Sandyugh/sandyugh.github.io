@@ -1,0 +1,225 @@
+body {
+    background-color: darkslateblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.a2{
+    top: 10px;
+    position: absolute;
+    width: 500px;
+    height: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.b2{
+    width: 2500px;
+    position: absolute;
+    left: 0;
+    animation-duration: 5s; 
+	animation-iteration-count: infinite;
+	animation-name: b;
+}
+.d2{
+    width: 500px;
+    float: left;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.d2 img{
+    position: relative;
+    max-width: 500px;
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.a1{
+    top: 10px;
+    left: 30px;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    overflow: hidden;
+    justify-content: left;
+    align-items: center;
+}
+.b1{
+    width: 1500px;
+    position: absolute;
+    left: 0;
+    animation-duration: 5s; 
+	animation-iteration-count: infinite;
+	animation-name: a;
+}
+.d1{
+    width: 300px;
+    float: left;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.d1 img{
+    position: relative;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    display: flex;
+}
+.a3{
+    right: 30px;
+    top: 10px;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    overflow: hidden;
+    justify-content: left;
+    align-items: center;
+    
+}
+.b3{
+    width: 1500px;
+    position: absolute;
+    right: 1200px;
+    animation-duration: 5s; /*动画播放的秒数*/
+	animation-iteration-count: infinite;/*动画无限循环播放*/
+	animation-name: a;
+}
+.d3{
+    width: 300px;
+    float: right;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.d3 img{
+    position: relative;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+
+@keyframes a {
+    0%   {
+        position: absolute;
+        left: 0px;}
+    20%,25% {
+        position: absolute;
+        left: -300px;
+      }
+    
+    45%,50%{
+        position: absolute;
+        left: -600px;
+      }
+    70%,75%{
+        position: absolute;
+        left: -900px;
+    }
+    95%{
+        position: absolute;
+        left: -1200px;
+    }
+    100% {
+        position: absolute;
+        left: -1200px;
+      }
+}
+@keyframes b {
+    0%   {
+        position: absolute;
+        left: 0px;}
+    20%,25% {
+        position: absolute;
+        left: -500px;
+      }
+    
+    45%,50%{
+        position: absolute;
+        left: -1000px;
+      }
+    70%,75%{
+        position: absolute;
+        left: -1500px;
+    }
+    95%{
+        position: absolute;
+        left: -2000px;
+    }
+    100% {
+        position: absolute;
+        left: -2000px;
+      }
+}
+
+.mucha{
+    position: absolute;
+    top: 900px;
+    font-size: 70px;
+    color: beige;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top:  1100px;
+}
+.author{
+    width: 200px;
+}
+.author img{
+    width: 200px;
+}
+.intro{
+    width: 500px;
+    height: 200px;
+    background-color: beige;
+    color: darkblue;
+    padding: 10px ;
+    line-height: 40px;
+    text-align: center;
+}   
+.intro p{
+    font-size: 30px;
+}
+.famous
+{
+    width: 500px;
+    height: 200px;
+    background-color: beige;
+    color: darkblue;
+    padding: 10px ;
+    line-height: 50px;
+}
+
+.video1{
+    color: beige;
+    text-decoration: blink;
+    float:none;
+    position: absolute;
+    margin-top: 2500px;
+}
+.button{
+    font-size: 30px;
+    position: absolute;
+    padding: 20px;
+    margin-top: 2000px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: beige;
+    border-radius: 40px 0px 40px 0px;
+    border-color: aliceblue;
+}
+.button:hover{
+    background-color: pink;
+    color: whitesmoke;
+    border-radius: 0px 40px 0px 40px;
+    transition:all 0.5s ;
+}

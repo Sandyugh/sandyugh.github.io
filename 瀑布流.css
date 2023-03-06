@@ -1,0 +1,30 @@
+body{
+    background-color: midnightblue; 
+}
+.title h1{
+    top: 30px;
+    text-align: center;
+    color: azure;
+}
+.mansory{
+    column-count: 4;
+    column-gap: 0;
+    margin: 10px 80px 30px 80px;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 25px;
+}
+.items{
+    
+    padding: 5px;
+}
+.items img{
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 1s ease-in-out;
+}
+.items img:hover{
+    opacity: 0.5;
+    transform: rotate(180deg);
+}
