@@ -1,1 +1,41 @@
 # sandyugh.github.io
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--下面那行寫的是網路的編碼-->
+        <meta charset="UFT-8"/>
+        <meta name="discription" content="我的第一個網站"/>
+        <meta name="author" content="ws"/>
+        <meta name="keywords" content="新手"/>
+        <meta name="viewpoint" content="width=device-width, initial scale=1.0"/>
+        <title>這是我的第一個網站</title>
+    </head>
+    <body>
+        <h1>HELLO WORLD</h1>
+        <HR/>
+        <H4><B>第一次學習HTML</B></H4>
+        <H4><B>每天都是新的一天!!</B></H4>
+        <!--連結 圖片-->
+        <a href="wlol.html">
+            <h1>圖片區</h1>
+        </a>
+        <a href="video.html">
+            <h1>好歌共賞</h1>
+        </a>
+    </body>
+    <div style="color: darkblue;">
+        <ol type="a" >
+            <li>217</li>
+            <li>25</li>
+            <li>黃煒珊</li>
+            <li>指導老師 王鐿容</li>
+        </ol>
+    </div>
+    <input type="email" placeholder="請輸入信箱"/>
+    <br/>
+    <br/>
+    <input type="password" placeholder="請輸入密碼"/>
+    <br/>
+    <br/>
+    <input type="text" placeholder="有什麼想跟我說的嗎?"/>
+</html>
