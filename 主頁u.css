@@ -86,8 +86,8 @@ body {
     width: 1500px;
     position: absolute;
     right: 1200px;
-    animation-duration: 5s; /*动画播放的秒数*/
-	animation-iteration-count: infinite;/*动画无限循环播放*/
+    animation-duration: 5s;
+	animation-iteration-count: infinite;
 	animation-name: a;
 }
 .d3{
