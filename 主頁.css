@@ -29,7 +29,6 @@
             width: 200px;
             height: 500px;
             display: flex;
-            /* 纵向布局 */
             flex-direction: column;
             justify-content: space-between;
         }
@@ -44,7 +43,6 @@
         .d img{
             position: absolute;
             width: 200px;
-            /* 小图片上移 */
             transform: translate(0,-50px);
             transition: .5s;
             right: 0;
